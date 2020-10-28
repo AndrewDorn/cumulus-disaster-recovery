@@ -15,7 +15,7 @@ resource "aws_db_instance" "postgresql" {
   allocated_storage          = 20
   # max_allocated_storage      = 21
   engine                     = "postgres"
-  engine_version             = "11.4"
+  engine_version             = "11"
   identifier                 = "${var.prefix}-postgres-sndbx"
   instance_class             = "db.t2.micro"
   name                       = "postgres"
