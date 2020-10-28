@@ -7,7 +7,7 @@ variable "vpc_id" {
 }
 
 variable "dr_version" {
-  default     = "0.1.1"
+  default     = "0.1.2"
   description = "Version of DR lambda code to deploy."
 }
 
